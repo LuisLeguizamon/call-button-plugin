@@ -11,7 +11,7 @@ License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 */
 function call_button_py_contact($content)
 {
-    $number = '0981921852';
+    $number = '';
     // Only do this when a single post is displayed
     if (is_single()) {
         // Message you want to display after the post
