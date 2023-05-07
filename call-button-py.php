@@ -46,7 +46,7 @@ function call_button_py_settings_page() {
 // Add a call button to the end of single posts
 function call_button_py_contact($content)
 {
-    $number = '';
+    $number = get_option( 'call_button_py_phone', '' );
     // Only do this when a single post is displayed
     if (is_single()) {
         // Message you want to display after the post
